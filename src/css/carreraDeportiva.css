@@ -1,0 +1,55 @@
+.carreraDeportivaBackground{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carreraDeportivaBackground h2{
+    font-size: 2.7rem;
+    align-self: center;
+    color: #dadada;
+}
+.carreraDeportivaBackground p{
+    padding: 0% 10%;
+    font-size: 1.4rem;
+    align-self: center;
+    color: #dadada;
+    text-align: center;
+}
+@media all and (max-width: 500px){
+    .carreraDeportivaBackground h2{
+        font-size: 1.8rem;
+    }
+    .carreraDeportivaBackground p{
+        font-size: .9;
+    }
+}
+.masInfo{
+    margin-top: 10%;
+    justify-self: center;
+    font-size: 1em;
+    text-decoration: none;
+    border: 2px solid #dadada;
+    border-radius: 20% 20px;
+    cursor: pointer;
+    background: transparent ;
+    transition: all .7s ease-in-out;
+    color: #dadada;
+}
+.masInfo:hover{
+    transform: scale(1.2);
+    border: 1px solid #dadada;
+}
+.carreraDeportivaBackground a{
+    width: fit-content;
+    align-self: center;
+}
+#trainSection{
+    height: 200vh;
+    background-color: black;
+}

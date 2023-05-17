@@ -1,0 +1,43 @@
+.footer{
+    height: 200px;
+    background-color: rgb(17, 17, 17);
+    display: flex;
+    align-content: center; 
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer a{
+    text-decoration: none;
+    color: #dadada;
+    display: inline-block;
+    align-self: center;
+}
+.footer section{
+    width: 25%;
+    display: flex!important;
+    margin-top: 10px;
+    display: inline-block;
+    align-self: center;
+    justify-content: space-between;
+    max-width: 130px;
+}
+.fa{
+    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid #dadada;
+    cursor: pointer;
+    background: transparent ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .7s ease-in-out;
+}
+.fa:hover{
+    transform: scale(1.2) rotate(360deg);
+    border: 1px solid #dadada;
+}
