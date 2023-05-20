@@ -1,0 +1,37 @@
+.formularioInscripcion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #dadada;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+.textForm{
+    width: 70%;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+}
+.textForm p{
+    width: 100%;
+    display: inline-flex;
+}
+.radiusInput{
+    display: flex;
+}
+label h2{
+    padding-top: 20%;
+    font-size: 1.3rem;
+}
+.buttonInput{
+    background-color: rgb(8, 8, 8);
+    color: #dadada;
+    border: 1px solid #dadada;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: .5em 1em;
+    margin-top: 5%;
+    cursor: pointer;
+}

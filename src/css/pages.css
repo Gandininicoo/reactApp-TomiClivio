@@ -1,4 +1,4 @@
-.carreraDeportivaBackground{
+.mainBackground{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -9,12 +9,12 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-.carreraDeportivaBackground h2{
+.mainBackground h2{
     font-size: 2.7rem;
     align-self: center;
     color: #dadada;
 }
-.carreraDeportivaBackground p{
+.mainBackground p{
     padding: 0% 10%;
     font-size: 1.4rem;
     align-self: center;
@@ -29,27 +29,47 @@
         font-size: .9;
     }
 }
+
 .masInfo{
     margin-top: 10%;
-    justify-self: center;
     font-size: 1em;
-    text-decoration: none;
-    border: 2px solid #dadada;
+    border: 1.5px solid #dadada;
     border-radius: 20% 20px;
-    cursor: pointer;
-    background: transparent ;
     transition: all .7s ease-in-out;
     color: #dadada;
 }
 .masInfo:hover{
-    transform: scale(1.2);
-    border: 1px solid #dadada;
+    translate: 0px -25px;
 }
 .carreraDeportivaBackground a{
     width: fit-content;
     align-self: center;
 }
-#trainSection{
-    height: 200vh;
-    background-color: black;
+#infoSection{
+    padding-top: 10%;
+    min-height: 100vh;
+    background-color: rgb(8, 8, 8);
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#infoSection img{
+    width: 40%;
+    height: auto;
+}
+#infoSection .info{
+    width: 65%;
+    color: #dadada;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.jstfy{
+    text-align: justify!important;
+}
+@media all and (max-width: 790px){
+    #infoSection .info{
+        width: 80%;
+        font-size: .8rem;
+    }
 }

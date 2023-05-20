@@ -1,6 +1,7 @@
+
 function NavBtn(props){
     return(
-        <a href={props.href} target={props.target}>
+        <a href={props.href} target={props.target} >
             <button style={{backgroundImage: `url(${props.backgroundImage})`}} className={props.className}>{props.routeTag}</button>
         </a>
     )
