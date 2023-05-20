@@ -33,7 +33,7 @@ function SobreMi() {
           decidí darle un giro a mi carrera y orientarla a la media distancia
           teniendo mi primera experiencia en “Half Santa Ana 25ta edición”
           logrando el segundo puesto de la categoría Elite, lo que me dio un
-          gran impulso para seguir adelante en esta distancia donde me pronto me
+          gran impulso para seguir adelante en esta distancia donde pronto me
           esperan enormes desafíos…
         </p>
       </section>
